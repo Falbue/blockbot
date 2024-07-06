@@ -13,22 +13,11 @@
 @media (prefers-color-scheme: light) {
     :root {
         --main-bg-color: white;
-        --main-text-color: black;
-        --bg-input: #E0E0E0;
-        --bg-button: #6A5ACD;
-        --fg-button: #FFFFFF;
-    }
-}
-
-/* Стили для тёмной темы */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --main-bg-color: black;
-        --main-text-color: white;
-        --bg-input: #545454;
-        --bg-button: #5C17EB;
-        --fg-button: #070025;
-    }
+    --main-bg-color: #202020;
+    --main-text-color: white;
+    --bg-input: #545454;
+    --bg-button: #5C17EB;
+    --fg-button: #070025;
 }
 
 
